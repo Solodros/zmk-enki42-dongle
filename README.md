@@ -1,10 +1,12 @@
 # ZMK config for corne-like keyboard with dongle
 
-The config allows you to use 3 n!n, one for the dongle, one for the left half, one for the right half. Using a dongle significantly increases battery life.. The dongle can be any device on the nRF52840 (or other supported ZMK controllers). For example, I made a separate branch in this repository where XIAO BLE is used as a dongle. More details on the [slicemk page](https://www.slicemk.com/pages/split-dongle).
+The config allows you to use 3 n!n, one for the dongle, one for the left half, one for the right half. Using a dongle significantly increases battery life.. The dongle can be any device on the nRF52840 (or other supported ZMK controllers). For example, I made a separate branch in this repository where XIAO BLE is used as a dongle. More details on the [slicemk page](https://www.slicemk.com/pages/split-dongle) and [ZMK doc](https://zmk.dev/docs/development/hardware-integration/dongle#adding-a-dongle).
 
 Config contains [Watchman's layout](https://github.com/aroum/Watchman-layouts).
 
 This is a config for [Enki 42](https://www.reddit.com/r/ErgoMechKeyboards/comments/qeq2qg/enki42_slim_ergo_keyboard/), but you can use it with corne or any other compatible keyboard.
+
+This repository has versions for different controllers, switch branches to choose the one you need.
 
 You can change the name in line
 ```
